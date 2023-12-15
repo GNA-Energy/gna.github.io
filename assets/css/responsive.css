@@ -1,0 +1,133 @@
+@media only screen and (max-width: 1200px) {
+    body {
+        font-size: 1.4rem;
+    }
+    p { text-align: justify; margin-bottom: 1.5rem; line-height: 1.4;}
+    h5 {font-size: 2.2rem;}
+    
+    h1 {font-size: 3rem; margin-bottom: 1.5rem;}
+    h2 {font-size: 2.5rem;  margin-bottom: 2rem;}
+    h3 {font-size: 2rem;}
+    h4 {font-size: 1.9rem;}
+    h5 {font-size: 1.8rem;}
+    h6 {font-size: 1.6rem;}
+
+    .mb5 { margin-bottom: 2rem;}
+    .mb7 { margin-bottom: 7rem;}
+
+    .btn { font-size: 1.4rem; padding: .8rem 1.8rem;}
+
+    .data-analytic .img-wraper img { width: 100%;}
+    .energy-board .board .center-circle::before {content: url('../images/horizontal-stroke-ipad.png');}
+    .otc-plateform { padding: 10rem 0 26rem 0;}
+
+ }
+
+ @media only screen and (max-width: 1024px) {
+    body {
+        font-size: 1.3rem;
+    }
+    .banner-slider-wraper label { font-size: 1.3rem;}
+    .banner-slider-wraper .item-wraper { padding: 0px 6rem;}
+    /* .banner-slider-wraper.mb7 { margin-bottom: 3rem;} */
+    .service-items .item { padding: 2.2rem;}
+    .service-items .item img { width: 7rem;}
+    .data-analytic.mb5 { margin-bottom: 0;}
+    .energy-management { padding:  6rem 0;}
+    .enery-card .item img {max-width: 15rem;}
+    .energy-board { padding: 8rem 0;}
+    .energy-board .board .center-circle::before {content: url('../images/horizontal-stroke-1024.png');}
+    .otc-plateform .otc-wraper { padding: unset;}
+    .otc-plateform .otc-wraper .otc-img { position: unset; margin-top: 2rem;}
+    .otc-plateform {padding: 10rem 0 6rem 0;}
+    .who-we-are img { width: 100%;}
+    .why-gna { padding: 7rem 0;}
+    .service-items .item h3 { font-size: 1.6rem;}
+    .energy-board .board .item img { width: 11rem;}
+
+    .footer-strip { padding: 2rem; border-radius: 6rem;}
+    .footer .footer-menu ul li { font-size: 1.2rem;}
+    .footer .footer-card { padding: 3rem; border-radius: 2.5rem;}
+ }
+
+
+@media only screen and (max-width: 766px) {
+    body {
+        font-size: 1.1rem;
+    }
+    p { text-align: justify; margin-bottom: 1.5rem; line-height: 1.4;}
+    h5 {font-size: 2.2rem;}
+    
+    h1 {font-size: 2.2rem; margin-bottom: 1.5rem;}
+    h2 {font-size: 2rem;  margin-bottom: 2rem;}
+    h3 {font-size: 1.6rem;}
+    h4 {font-size: 1.5rem;}
+    h5 {font-size: 2.2rem;}
+    h6 {font-size: 1.1rem;}
+
+    .mb5 { margin-bottom: 2rem;}
+    .mb7 { margin-bottom: 7rem;}
+
+    .btn { font-size: 1.1rem; }
+
+    .banner-slider-wraper label { font-size: .9rem; border-radius: 2rem; padding: .8rem 2rem .5rem 2rem;}
+    .banner-slider-wraper .item-wraper { padding: 0; }
+    .banner-slider-wraper .item-wraper p { font-size: 1.1rem; padding: 0px 4rem;}
+    .banner-slider-wraper .item-wraper .img-box img { width: 100%;}
+
+    .why-us-slider .splide__arrows {bottom: -30px; top: unset; transform: unset; left: 50%; transform: translateX(-50%); position: absolute;}
+    .why-us-slider .splide__arrows .splide__arrow--next { left: 4rem;}
+    .why-us-slider .splide .splide__slide .item-wraper img {margin-bottom: 1rem; width: 6.2rem;}
+    .why-us-slider .splide .splide__slide .item-wraper p { margin: 0;}
+
+    .service-items { display: block;}
+    .service-items .item { width: 100%; border-radius: 15px; padding: 2rem; border: 1px solid #F1935C; }
+
+    .hide-mob { display: none !important; }
+    .service-items .item .show-hover { position: unset; display: block; background: unset; padding: 0; border-radius: 0;}
+    .service-items .item .show-hover img { width: 6rem; margin-bottom: 1rem;}
+
+    .our-services { padding: 5rem 0;}
+    .otc-plateform { padding: 10rem 0 7rem 0; }
+    .otc-plateform .otc-wraper { padding-left: 1rem;}
+    .otc-plateform .otc-wraper .otc-img { position: unset; margin-top: 3rem;}
+
+    .data-analytic .img-wraper { justify-content: space-between; margin-top: 3rem; }
+    .data-analytic .img-wraper img { width: 100%;}
+    .data-analytic .img-wraper div { width: 33%; }
+    .data-analytic .img-wraper div .center-img {width: 85% !important;}
+
+    .enery-card {display: block;}
+    .enery-card .item {width: 100%; margin-bottom: 1rem; padding: 2rem;}
+    .enery-card .item img {width: 9rem;}
+    .green-energy { padding: 0rem 0 7rem 0;}
+    .energy-management .img-box { margin-top: 3rem;}
+    .energy-board {padding: 7rem 0;}
+    .energy-board .board .item { padding: 0 2rem; }
+    .energy-board .board .item h5 { font-size: 1.4rem; }
+    .energy-board .board .item img { width: 5.2rem;}
+    .energy-board .board .center-circle img { width: 7rem;}
+    .energy-board .board .center-circle h6 { top: 55%; font-size: 1.3rem;}
+    .energy-board .board .center-circle::before {content: url('../images/mobile-horizontal-stroke.svg');}
+    .who-we-are .logos { margin-bottom: 3rem;}
+
+    .banner-slider-wraper.otc { margin-bottom: 10rem;}
+
+    .address-block ul { margin-left: unset;}
+
+    .footer { background: url('../images/m-footer-bg.svg'); height: auto;}
+    .footer-abs {position: unset; transform: unset;}
+    .footer .footer-menu { display: block;}
+    .footer .footer-menu ul:first-child { width: 100%;}
+    .footer .footer-menu ul { margin-right: unset;}
+    .footer .footer-menu ul .d-flex { display: block !important;}
+    .footer .rights-condition { display: block;}
+    .footer .footer-card { padding: 2rem; border-radius: 1.5rem;}
+    .footer-strip h4 { line-height: 2.2rem; font-size: 2rem; margin-bottom: 1rem;}
+    .footer-strip { padding: 2rem 2rem; border-radius: 0;}
+    .footer-strip .content { display: block !important; text-align: center;}
+
+
+  }
+
+  

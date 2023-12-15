@@ -1,115 +1,805 @@
 <!DOCTYPE html>
-
 <html>
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <title>GNA</title>
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
-    rel="stylesheet">
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <style>
-    .wf-force-outline-none[tabindex="-1"]:focus {
-      outline: none;
-    }
-
-    .div-block img {
-      width: 70px;
-    }
-  </style>
-</head>
-
-<body class="body">
-
-  <div class="container d-flex align-items-top">
-
-
-    <div class="hero wf-section">
-      <div class="navigation wf-section">
-        <div class="div-block"><img src="gnalogo.png"></div>
-      </div>
-      <div class="div-block-2">
-        <h1 class="heading-2">India’s economy will grow 3x <br>to touch $10 Trillion by 2030. </h1>
-        <h2 class="secondline">Clean Energy will be it’s backbone.</h2>
-        <h4 class="heading">
-          GNA Energy strives to become a key enabler of New India’s Clean Energy economy.
-        </h4>
-
-
-        <div class="textbx">
-
-          <div class="text">We Learn</div>
-          <div class="text">We Innovate</div>
-          <div class="text">We Deliver</div>
-        </div>
-
-        <h4 class="heading2">
-          We are in Stealth Mode.
-
-        </h4>
-        <div class="div-block-3"><a href="https://www.linkedin.com/company/gna-energy/" target="_blank"
-            class="button w-button">Join us</a></div>
-
-
-      </div>
+    <head>
+        <title>GNA Energy OTC Platform</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="./assets/images/favicon.svg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="GNA Energy OTC Platform - India’s Premier OTC Platform for Electricity Buyers and Sellers">
+  <meta property="og:description" content="ndia's Electricity Sector is BROKEN; GNA Energy is here to fix it. India's first Premier OTC Platform.">
+  <meta property="og:image" content="./assets/images/Preview.jpg">
+  <meta property="og:url" content="https://gna.energy">
+  <meta property="og:type" content="website">
 
 
 
-    </div>
+        <link href="./assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./assets/css/splide.min.css" rel="stylesheet">
+        <link href="./assets/css/style.css" rel="stylesheet">
+        <link href="./assets/css/responsive.css" rel="stylesheet">
 
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg custom-nav">
+            <div class="container">
+              <a class="navbar-brand" href="./index.html">
+                <img src="./assets/images/logo.svg" title="logo" class="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#who">about us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#WhyOTC">Why GNA</a>
+                  </li>
+                  <li class="nav-item ">
+                    <!-- <a class="nav-link dropdown-toggle" href="#service" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Services
+                    </a> -->
+                    <a class="nav-link" href="#service" >
+                        Services
+                    </a>
+                   <!-- <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>-->
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./contact-us.html">contact us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="./OTC.html">
+                        <button type="button" class="btn orange-btn">login to OTC</button>
+                    </a>
+                  </li>
+                  
+                </ul>
+              </div>
+            </div>
+        </nav>
+        <section class="banner-slider-wraper mb7">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="splide bannerSlider">
+                            <div class="splide__track">
+                                  <ul class="splide__list">
+                                      <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <label>Central Electricity Regulatory Commission Approved</label>
+                                            <h1 class="">GNA Energy <span class="orange-text"> OTC Platform </span></h1>
+                                            <p>India’s Premier OTC Platform for <span class="green-text"> Electricity Buyers </span> and <span class="green-text"> Sellers</span></p>
+                                            <div class="btn-wraper">
+                                                <a href="#otcPlatform">
+                                                    <button type="button" class="btn green-btn">explore more</button>
+                                                </a>
+                                                <a href="./contact-us.html">
+                                                <button type="button" class="btn orange-btn">get in touch</button></a>
+                                            </div>
+                                            <!-- <div class="slider-img-wraper">
+                                                <div class="img1">
+                                                    <img src="./assets/images/gna-mid.png" >
+                                                </div>
+                                                <div class="img2">
+                                                    <img src="./assets/images/commertial-purpose.png" >
+                                                </div>
+                                                <div class="img3">
+                                                    <img src="./assets/images/industry.png" >
+                                                </div>
+                                                <div class="img4">
+                                                    <img src="./assets/images/discoms.png" >
+                                                </div>
+                                                <div class="img5">
+                                                    <img src="./assets/images/green-hydrogen.png" >
+                                                </div>
+                                                <div class="img6">
+                                                    <img src="./assets/images/storage.png" >
+                                                </div>
+                                                <div class="img7">
+                                                    <img src="./assets/images/generator.png" >
+                                                </div>
+                                               
+                                            </div> -->
+                                            <div class="img-box">
+                                                <img src="./assets/images/Carousel 1.svg">
+                                            </div>
+                                        </div>
+                                      </li>
+                                      <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <label>Central Electricity Regulatory Commission Approved</label>
+                                            <h1 class=""><span class="orange-text"> GNA Energy  </span> data and analytics</h1>
+                                            <p>Get <span class="green-text"> actionable insights </span> and and make informed decisions</p>
+                                            <div class="btn-wraper">
+                                                <a href="#dataAnalytic">
+                                                    <button type="button" class="btn green-btn">explore more</button>
+                                                </a>
+                                                <a href="./contact-us.html">
+                                                <button type="button" class="btn orange-btn">get in touch</button></a>
+                                            </div>
+                                            <div class="img-box">
+                                                <img src="./assets/images/Carousel 2.svg" >
+                                            </div>
+                                        </div>
+                                      </li>
+                                      <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <br>
+                                            <br>
+                                            <br>
+                                        
+                                            <!--<label>Central Electricity Regulatory Commission Approved</label>-->
+                                            <h1 class=""> <span class="orange-text">GREEN Energy </span> Transition</h1>
+                                            <p>A transformative journey towards sustainability with our <span class="green-text"> Net Zero and Decarbonisation </span> services </p>
+                                            <div class="btn-wraper">
+                                                <a href="#greenEnergy">
+                                                    <button type="button" class="btn green-btn">explore more</button>
+                                                </a>
+                                                <a href="./contact-us.html">
+                                                <button type="button" class="btn orange-btn">get in touch</button></a>
+                                            </div>
+                                            <div class="img-box">
+                                                <img src="./assets/images/Carousel 3.svg" >
+                                            </div>
+                                        </div>
+                                      </li>
+                                  </ul>
+                            </div>
 
+                                <div class="splide__arrows">
+                                    <button class="splide__arrow splide__arrow--prev">
+                                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.07424 19.4192L23.9236 19.4192L16.9992 26.3435C16.4459 26.8969 16.4459 27.805 16.9992 28.3584C17.5526 28.9118 18.4465 28.9118 18.9999 28.3584L28.3506 19.0077C28.904 18.4543 28.904 17.5604 28.3506 17.0071L18.9999 7.65638C18.4465 7.103 17.5526 7.103 16.9992 7.65637C16.4459 8.20975 16.4459 9.10367 16.9992 9.65705L23.9236 16.5814L8.07424 16.5814C7.29384 16.5814 6.65532 17.2199 6.65532 18.0003C6.65532 18.7807 7.29384 19.4192 8.07424 19.4192Z" fill="white"/>
+                                        </svg>
+                                                                                    
+                                    </button>
+                                    <button class="splide__arrow splide__arrow--next">
+                                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M8.07424 19.4192L23.9236 19.4192L16.9992 26.3435C16.4459 26.8969 16.4459 27.805 16.9992 28.3584C17.5526 28.9118 18.4465 28.9118 18.9999 28.3584L28.3506 19.0077C28.904 18.4543 28.904 17.5604 28.3506 17.0071L18.9999 7.65638C18.4465 7.103 17.5526 7.103 16.9992 7.65637C16.4459 8.20975 16.4459 9.10367 16.9992 9.65705L23.9236 16.5814L8.07424 16.5814C7.29384 16.5814 6.65532 17.2199 6.65532 18.0003C6.65532 18.7807 7.29384 19.4192 8.07424 19.4192Z" fill="white"/>
+                                        </svg>
+                                            
+                                    </button>
+                            </div>
+                            
+                          </div>
 
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  </div>
-  <br>
+        <!-- why choose us slider -->
+        <section class="why-us-slider mb7" id="whygnaenergy">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5">
+                        <h2>Why <br> <span class="orange-text">Choose Us?</span></h2>
+                    </div>
+                    <div class="col-md-7">
+                        <div class="splide whyUsSlider">
+                            <div class="splide__track">
+                                  <ul class="splide__list">
+                                      <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <img src="./assets/./images/Expertise.svg">
+                                            <h4 class="orange-text">expertise</h4>
+                                            <p>
+                                                Our team consists of experts in the energy industry who understand the complexities of electricity markets.
+                                            </p>
+                                        </div>
+                                      </li>
+                                      <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <img src="./assets/./images/Transparency.svg">
+                                            <h4 class="orange-text">Transparency</h4>
+                                            <p>
+                                                We believe in complete transparency in every interaction, ensuring you always know what you are getting.
+                                            </p>
+                                        </div>
+                                      </li>
+                                      <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <img src="./assets/./images/Customer.svg">
+                                            <h4 class="orange-text">Customer centric</h4>
+                                            <p>
+                                                Your satisfaction is our top priority. We are here to support you in every step of your journey.
+                                            </p>
+                                        </div>
+                                      </li>
+                                      <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <img src="./assets/./images/Innovation.svg">
+                                            <h4 class="orange-text">Innovation</h4>
+                                            <p>
+                                                We are always at the forefront of technical advancements in the energy sector, providing you with the best tools.
+                                            </p>
+                                        </div>
+                                      </li> 
+                                      <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <img src="./assets/./images/Bharat.svg">
+                                            <h4 class="orange-text">Made in bharat</h4>
+                                            <p>
+                                                Our platform has been developed to cater to the specific requirements of the Indian Power Market Structure.
+                                            </p>
+                                        </div>
+                                      </li> 
+                                      
+                                  </ul>
+                            </div>
+                            <div class="splide__arrows">
+                                <button class="splide__arrow splide__arrow--prev">
+                                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.07424 19.4192L23.9236 19.4192L16.9992 26.3435C16.4459 26.8969 16.4459 27.805 16.9992 28.3584C17.5526 28.9118 18.4465 28.9118 18.9999 28.3584L28.3506 19.0077C28.904 18.4543 28.904 17.5604 28.3506 17.0071L18.9999 7.65638C18.4465 7.103 17.5526 7.103 16.9992 7.65637C16.4459 8.20975 16.4459 9.10367 16.9992 9.65705L23.9236 16.5814L8.07424 16.5814C7.29384 16.5814 6.65532 17.2199 6.65532 18.0003C6.65532 18.7807 7.29384 19.4192 8.07424 19.4192Z" fill="white"/>
+                                    </svg>
+                                                                                  
+                                </button>
+                                <button class="splide__arrow splide__arrow--next">
+                                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.07424 19.4192L23.9236 19.4192L16.9992 26.3435C16.4459 26.8969 16.4459 27.805 16.9992 28.3584C17.5526 28.9118 18.4465 28.9118 18.9999 28.3584L28.3506 19.0077C28.904 18.4543 28.904 17.5604 28.3506 17.0071L18.9999 7.65638C18.4465 7.103 17.5526 7.103 16.9992 7.65637C16.4459 8.20975 16.4459 9.10367 16.9992 9.65705L23.9236 16.5814L8.07424 16.5814C7.29384 16.5814 6.65532 17.2199 6.65532 18.0003C6.65532 18.7807 7.29384 19.4192 8.07424 19.4192Z" fill="white"/>
+                                    </svg>
+                                        
+                                </button>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <!-- <div class="container">
-    <div class="hero wf-section">
-      <div class="row">
-        <h2 class="secondline2 div-block-3">GNA Energy Private Limited Application for the OTC (Over the Counter)
-          Platform</h2>
+        <!-- our services -->
+        <section class="our-services" id="service">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="page-title text-center mb5">Our <span class="orange-text">Services</span></h2>
+                    </div>
+                    <div class="col-md-12 service-items">
+                        <div class="item">
+                            <div class="hide-mob d-flex align-items-center">
+                                <img src="./assets/images/OTC.svg">
+                                <h3>GNA Energy OTC Platform</h3>
+                            </div>
+                            <div class="show-hover">
+                                <h3>GNA Energy OTC Platform</h3>
+                                <p>
+                                    List your electricity demand and supply requirements. Find available consumers and suppliers of electricity.
+                                </p>
+                                <!--<button type="button" class="btn green-btn hide-mob">get in touch</button>-->
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hide-mob d-flex align-items-center">
+                                <img src="./assets/images/Data & Analytics.svg">
+                                <h3>GNA Energy Data & Analytics</h3>
+                            </div>
+                            <div class="show-hover">
+                                <h3>GNA Energy Data & Analytics</h3>
+                                <p>
+                                    Browse through a diverse list of products and services for the power market and find the right service provider.
+                                </p>
+                                <!--<button type="button" class="btn green-btn hide-mob">get in touch</button>-->
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hide-mob d-flex align-items-center">
+                                <img src="./assets/images/Management.svg">
+                                <h3>GNA Energy Management</h3>
+                            </div>
+                            <div class="show-hover">
+                                <h3>GNA Energy Management</h3>
+                                <p>
+                                    Optimise electricity consumption, reduce costs, achieve regulatory compliance, and minimize environmental impact.
+                                </p>
+                                <!--<button type="button" class="btn green-btn hide-mob">get in touch</button>-->
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="hide-mob d-flex align-items-center">
+                                <img src="./assets/images/Green Energy.svg">
+                                <h3>GREEN Energy TRANSITION</h3>
+                            </div>
+                            <div class="show-hover">
+                                <h3>GREEN Energy TRANSITION</h3>
+                                <p>
+                                    A transformative journey towards sustainability with our Net Zero and Decarbonisation services
+                                </p>
+                                <!--<button type="button" class="btn green-btn hide-mob">get in touch</button>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- GNA Energy OTC Platform -->
+        <section class="otc-plateform" id="otcPlatform">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 otc-wraper">
+                        <h2>GNA Energy <span class="orange-text">OTC Platform</span></h2>
+                        <p>
+                            In today's dynamic energy landscape, the traditional methods of electricity procurement are undergoing a significant transformation. GNA Energy OTC platform is designed to provide you with the tools and resources to navigate this ever-evolving market with confidence. GNA Energy allows you to list your electricity requirements and find other buyers or sellers in a cost-effective, transparent, flexible, and secure manner.
+                        </p>
+                        <p>
+                            Our OTC Platform provides you with transparent access to data/information and helps you make informed decisions.
+                        </p>
+                        <a href="./contact-us.html"> <button type="button" class="btn orange-btn hide-mob">get in touch</button></a>
+                        <div class="otc-img">
+                            <img src="./assets/images/OTCMain.svg" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="textbx1">
-         <div style="margin: 10px" class="text"> <a href="GNA Revised OTC Application_JSA_25.02.2023 - Binder.pdf" target="_blank">Revised Petition to CERC Dated 25 February 2023</a></div>
-          <div style="margin: 10px" class="text"><a href="GNAOTCApplication_Final Version.pdf" target="_blank">Petition to CERC Dated 17 Dec 2022</a></div>
-          <div style="margin: 10px" class="text"><a href="GNA-TechnicalStrength.pdf" target="_blank">Technical Strength</a></div>
+        <!-- GNA Energy Data and Analytics -->
+        <section class="data-analytic mb5" id="dataAnalytic">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>GNA Energy <span class="orange-text">Data</span> and <span class="orange-text">Analytics</span></h2>
+                        <p>
+                            In an era defined by dynamic energy landscapes, GNA Energy Data and Analytics Capability Center’s (GDACC) comprehensive solutions empower industry leaders to navigate the complexities of the power sector with precision and confidence.  
+                        </p>
+                        <p>
+                            From a pan-India dataset, real-time data aggregation, and in-depth market intelligence to predictive analytics and trend forecasting, we offer a holistic suite of tools to optimise decision-making and maximise operational efficiency.
+                        </p>
+                        <p>
+                            Our team of experts combines cutting-edge technology with in-depth industry knowledge, ensuring you stay ahead of the curve in this ever-evolving market. Discover actionable insights and make informed decisions to drive success in the power sector.
+                        </p>
+                        <a href="./contact-us.html"> <button type="button" class="btn orange-btn hide-mob">get in touch</button></a>
+                        <div class="img-wraper">
+                            <img src="./assets/images/Data analytics.svg" width="100%">
+                            <!-- <div>
+                                <img src="./assets/images/image01.svg">
+                            </div>
+                            <div>
+                                <img class="center-img" src="./assets/images/image02.svg">
+                            </div>
+                            <div>
+                                <img src="./assets/images/image3.svg">
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-          <div class="text"><a data-toggle="modal" data-target="#exampleModal">For Comments on Application</a></div>
-        </div>
-      </div>
-    </div>
-  </div> -->
+        <!-- gna energy management -->
+        <section class="energy-management mb5" id="Energymanagement">
+            <div class="container">
+                <div class="row mb5">
+                    <div class="col-md-12">
+                        <h2>GNA Energy <span class="orange-text">Management</span></h2>
+                        <p>
+                            GNA Energy Management Services is dedicated to transforming the way you interact with energy. Our holistic approach empowers businesses to optimise their energy consumption, reduce costs, achieve regulatory compliance, and minimise environmental impact. 
+                        </p>
+                        <p>
+                            With our expert team, cutting-edge technology, and tailored solutions, we offer a comprehensive suite of services, from energy audits and efficiency assessments to sustainable energy sourcing and carbon footprint reduction. Our Energy Management solution will entail conducting a detailed analysis of your energy data, identifying opportunities to save energy, recommending actions to save energy and further reduce cost, tracking progress and ongoing improvement, and responding quickly to any abnormalities.
+                        </p>
+                        <a href="./contact-us.html"> <button type="button" class="btn orange-btn hide-mob">get in touch</button></a>
+                    </div>
+                    <div class="col-md-12 img-box">
+                        <img src="./assets/images/energy-management-img.svg" width="100%">
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col-md-12">
+                        <h2> <span class="orange-text">Green Energy </span> Transition</h2>
+                        <h4 class="green-text">Net Zero and DecarboniSation</h4>
+                        <p>
+                            Embark on a transformative journey towards sustainability with our Net Zero and Decarbonisation services. Our experts will guide you in developing and implementing comprehensive Net Zero strategies that are aligned with your unique needs. We empower organisations to navigate the intricate landscape of energy transition, steering towards a low-carbon future. We enable you to compensate for emissions by investing in impactful projects that align with your commitment to sustainability. 
+                        </p>
+                        <p>
+                            Embrace renewable energy solutions, such as solar, wind, and storage, integrated seamlessly into your current energy management framework, catalysing the decarbonisation process. Fulfil your Renewable Power Obligations (RPO), achieve Net Zero, and join the realm of global decarbonisation efforts.
+                        </p>
+                        <button type="button" class="btn orange-btn">get in touch</button>
+                        <div class="enery-card">
+                            <div class="item">
+                                <img src="./assets/images/green-energy.png">
+                                <h6 class="green-text">Analyse Current Infrastructure</h6>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/images/green-energy.png">
+                                <h6 class="green-text">Project assessment and design</h6>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/images/green-energy.png">
+                                <h6 class="green-text">Project implementation support</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </section>
 
-  <footer class="footer">
-    <p>© <script>document.write(new Date().getFullYear())</script> GNA Energy Private Limited. All rights reserved.</p>
-  </footer>
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">GNA Energy</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          Please email your comments to <a href="mailto:comments@gna.energy"><strong>comments@gna.energy</strong> </a>
-        </div>
+        <!-- green energy -->
+        <section class="green-energy" id="greenEnergy">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2> <span class="orange-text">Green Energy </span> Transition</h2>
+                        <h4 class="green-text">Net Zero and DecarboniSation</h4>
+                        <p>
+                            Embark on a transformative journey towards sustainability with our Net Zero and Decarbonisation services. Our experts will guide you in developing and implementing comprehensive Net Zero strategies that are aligned with your unique needs. We empower organisations to navigate the intricate landscape of energy transition, steering towards a low-carbon future. We enable you to compensate for emissions by investing in impactful projects that align with your commitment to sustainability. 
+                        </p>
+                        <p>
+                            Embrace renewable energy solutions, such as solar, wind, and storage, integrated seamlessly into your current energy management framework, catalysing the decarbonisation process. Fulfil your Renewable Power Obligations (RPO), achieve Net Zero, and join the realm of global decarbonisation efforts.
+                        </p>
+                        <a href="./contact-us.html"> <button type="button" class="btn orange-btn hide-mob">get in touch</button></a>
+                        <div class="enery-card">
+                            <div class="item">
+                                <img src="./assets/images/analysis.svg">
+                                <h6 class="green-text">Analyse Current Infrastructure</h6>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/images/design.svg">
+                                <h6 class="green-text">Project assessment <br> and design</h6>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/images/support.svg">
+                                <h6 class="green-text">Project implementation support</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Bulletin Board -->
+        <section class="energy-board" id="bulletinboard">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="title">GNA Energy <span class="orange-text">Bulletin Board</span></h2>
+                        <p>
+                            GNA Energy Bulletin Board for the Indian Power Market is your trusted gateway to exclusive opportunities in this dynamic industry. Our platform serves as a dedicated hub for connecting industry professionals, businesses, and stakeholders, facilitating the seamless exchange of information, assets, and partnerships. 
+                        </p>
+                        <p>
+                            Whether you're looking to buy, sell, or collaborate on power-related projects, equipment, or assets, our secure and user-friendly platform provides a confidential and efficient marketplace where you can discover suppliers and service providers with confidence.
+                        </p>
+                        <a href="./contact-us.html"> <button type="button" class="btn orange-btn hide-mob">get in touch</button></a>
+                        <div class="board">
+                            <div class="item">
+                                <img src="./assets/images/products.svg">
+                                <h5 class="green-text">List Product & Services</h5>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/images/promote.svg">
+                                <h5 class="green-text">Promote</h5>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/images/leads.svg">
+                                <h5 class="green-text">Generate Leads</h5>
+                            </div>
+                            <div class="item">
+                                <img src="./assets/images/qualify.svg">
+                                <h5 class="green-text">Qualify & Prioritise Leads</h5>
+                            </div>
+                            <div class="center-circle">
+                                <img src="./assets/images/green-circle.png" >
+                                <h6>GNA</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- why gna -->
+        <section class="why-gna hide-mob" id="WhyOTC">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>Why GNA energy <span class="orange-text">otc platform?</span></h2>
+                    </div>
+                    <div class="col-md-12 gna-flip-wraper">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3 class="green-text">Flexibility</h3>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div>
+                                        <h3 class="orange-text">Flexibility</h3>
+                                        <p>
+                                            Take charge of your electricity choices like never before. Our platform empowers you to select the location, source, pricing, and duration of your energy requirements, giving you complete control over buying and selling electricity.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3 class="green-text">liquidity</h3>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div>
+                                        <h3 class="orange-text">liquidity</h3>
+                                        <p>
+                                            Discover electricity buyers and sellers nationwide, catering to your needs regardless of your scale – be it small, medium, or large, and whether you are seeking buyers and sellers at the interstate or intrastate level.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3 class="green-text">Transparency</h3>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div>
+                                        <h3 class="orange-text">Transparency</h3>
+                                        <p>
+                                            Say goodbye to hidden elements and surprises. We offer transparent and detailed information, so you can make data-driven informed decisions.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3 class="green-text">Cost Effective</h3>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div>
+                                        <h3 class="orange-text">Cost Effective</h3>
+                                        <p>
+                                            Optimise your energy revenue and expenses. Find electricity buyers and sellers whose business objectives are aligned with your financial goals.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3 class="green-text">Green Energy Options</h3>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div>
+                                        <h3 class="orange-text">Green Energy Options</h3>
+                                        <p>
+                                            Make a positive impact on the environment by choosing from a wide range of renewable energy sources. We connect you with clean energy producers, helping you reduce your carbon footprint.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <h3 class="green-text">Data Driven</h3>
+                                </div>
+                                <div class="flip-card-back">
+                                    <div>
+                                        <h3 class="orange-text">Data Driven</h3>
+                                        <p>
+                                            Leverage our advanced data and analytics capabilities to achieve your goals for the Resource Adequacy Framework, including demand response and grid stability, optimise your trading strategy, minimise DSM penalties, etc.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      </div>
-    </div>
-  </div>
+        <!-- who we are -->
+        <section class="who-we-are" id="who">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-5 logos">
+                        <img src="./assets/images/GNA top 1.svg" >
+                        <img src="./assets/images/GNA top 2.svg">
+                        <img src="./assets/images/GNA middle.svg">
+                        <img src="./assets/images/GNA bottom 2.svg">
+                        <img src="./assets/images/GNA Buttom 1.svg">
+                    </div>
+                    <div class="col-md-6 offset-md-1">
+                        <h2><span class="orange-text">who </span> we are</h2>
+                        <p>
+                            GNA Energy is a digital OTC platform that brings together potential buyers and sellers of electricity. <span class="green-text fw7">The Central Electricity Regulatory Commission (CERC) </span> has granted us registration to establish and operate an OTC Platform for the Indian Power Market. 
+                        </p>
+                        <p>
+                            Our team of dedicated professionals comes with years of experience in the energy industry. Our diverse energy, technology, data, and regulatory backgrounds have come together to build a platform that empowers generators, DISCOMS, utilities, and commercial and industrial consumers to take control of their electricity needs.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+        <!-- our commitment -->
+        <section class="our-commitment">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h2>Our Commitment to <span class="green-text">Sustainability</span></h2>
+                        <p>
+                            We are committed to a sustainable future. We support the transition to cleaner, more environmentally friendly electricity sources. By choosing GNA Energy, you are contributing to a greener world. We invite you to join us on this journey to reshape the electricity landscape in India. If you have any questions or would like to learn more, please don't hesitate to reach out to our team. We look forward to serving you!
+                        </p>
+                    </div>
+                    <div class="offset-md-1 col-md-5">
+                        <img src="./assets/images/commitment-banner.png" >
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- our mission -->
+        <section class="our-mission">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h2>Our <span class="orange-text">Mission</span></h2>
+                        <p>
+                            GNA’s mission is to make electricity accessible, affordable, and reliable for everyone. We believe that electricity is not just a utility; it's a vital resource that powers our lives, businesses, and economies.
+                        </p>
+                    </div>
+                    <div class="offset-md-1 col-md-6">
+                        <ul>
+                            <li>
+                                <h3 class="green-text">Empower Customers</h3>
+                                <p>
+                                    We put the power in your hands, allowing you to choose your electricity suppliers with ease.
+                                </p>
+                            </li>
+                            <li>
+                                <h3 class="green-text">promote transparency</h3>
+                                <p>
+                                    We are committed to transparency so you can make informed decisions.
+                                </p>
+                            </li>
+                            <li>
+                                <h3 class="green-text">Drive innovation</h3>
+                                <p>
+                                    We constantly innovate to bring you the latest technology and features for streamlined performance.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <!-- footer -->
+        <footer class="footer">
+            <div class="container footer-abs">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>
+                            <img src="./assets/images/green-logo.svg" >
+                        </h2>
+                    </div>
+                    <div class="col-md-12 footer-card">
+                        <div class="footer-menu">
+                            <ul>
+                                <li>
+                                    <h5 class="orange-text">GNA</h5>
+                                    <div>
+                                        <a href="#"><img src="./assets/images/Facebook.png"></a>
+                                        <a href="#"><img src="./assets/images/Instagram.png"></a>
+                                        <a href="#"><img src="./assets/images/LinkedIn.png"></a>
+                                        <a href="#"><img src="./assets/images/WhatsApp.png"></a>
+                                    </div>
+                                </li>
+                                <li>
+                                    GNA Energy is here to make electricity accessible, affordable, and reliable for everyone. We believe that electricity is not just a utility; it's a vital resource that powers our lives, businesses, and economies.
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h5 class="orange-text">Services</h5>
+                                </li>
+                                <li class="d-flex">
+                                    <div>
+                                        <a href="./OTC.html" class="footer-list d-block">GNA OTC Platform </a>
+                                        <a href="./index.html#WhyOTC" class="footer-list d-block"> Why OTC Platform </a>
+                                        <a href="./index.html#Energymanagement" class="footer-list d-block"> Energy Management</a>
+                                    </div>
+                                    <div>
+                                        <a href="./index.html#greenEnergy" class="footer-list d-block">Green Energy Transition  </a>
+                                        <a href="./index.html#dataAnalytic" class="footer-list d-block"> Data & Analytics </a>
+                                        <a href="./index.html#bulletinboard" class="footer-list d-block"> GNA Energy Bulletin Board</a>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <h5 class="orange-text">About us</h5>
+                                </li>
+                                <li>
+                                    <a href="./index.html#whygnaenergy" class="footer-list d-block">Why GNA Energy </a>
+                                    <a href="./index.html#who" class="footer-list d-block">About GNA </a>
+                                    <a href="./contact-us.html" class="footer-list d-block"> Contact Us </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="rights-condition">
+                            <span>© 2023 GNA Energy Private Limited. All Rights Reserved.</span>
+                            <div>
+                                <a href="">Privacy Policy. </a>
+                                <a href=""> Terms and Conditions.</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container footer-strip">
+                <div class="content d-flex justify-content-between">
+                    <h4 class="text-white">join the GNA energy OTC Platform?</h4>
+                    <a href="./contact-us.html"><button type="button" class="btn green-btn">contact us</button></a>
+                </div>
+            </div>
+            <a href="#">
+                <div class="bottomTop">
+                    <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.2165 23.5128L16.2165 9.92768L22.1516 15.8628C22.6259 16.3371 23.4043 16.3371 23.8786 15.8628C24.353 15.3885 24.353 14.6223 23.8786 14.148L15.8638 6.13309C15.3894 5.65876 14.6232 5.65876 14.1489 6.13309L6.13404 14.148C5.65971 14.6223 5.65971 15.3885 6.13404 15.8628C6.60836 16.3371 7.37458 16.3371 7.8489 15.8628L13.784 9.92768L13.784 23.5128C13.784 24.1817 14.3313 24.729 15.0003 24.729C15.6692 24.729 16.2165 24.1817 16.2165 23.5128Z" fill="white"/>
+                    </svg>                    
+                </div>
+            </a>
+        </footer>
+        <div class="bottom-line"></div>
+
+        <script src="./assets/js/bootstrap.bundle.min.js"></script>
+        <script src="./assets/js/splide.min.js"></script>
+        <script>
+            var banner_slider = new Splide( '.bannerSlider', {
+            // type   : 'loop',
+            // padding: '5rem',
+            perPage: 1,
+            perMove: 1,
+            pagination: false,
+            breakpoints: {
+                767: {
+                // destroy: true,
+                // label  : 'My Gallery', // Used after destruction
+                
+                }
+            }
+            } );
+
+            banner_slider.mount();
+
+            var why_us_slider = new Splide( '.whyUsSlider', {
+            // type   : 'loop',
+            // padding: '15rem',
+            gap: 20,
+            perPage: 2,
+            perMove: 1,
+            pagination: false,
+            breakpoints: {
+                1024: {
+                    perPage: 1,
+                
+                    },
+                800: {
+                    perPage: 1,
+                
+                    },
+                767: {
+                    perPage: 1,
+                
+                    },
+                768: {
+                // destroy: true,
+                // label  : 'My Gallery', // Used after destruction
+                perPage: 1,
+                padding: '6rem',
+                // gap: '-10px',
+                    },
+                
+                }
+            } );
+
+            why_us_slider.mount();
+        </script>
+    </body>
 </html>
