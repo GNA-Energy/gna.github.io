@@ -192,6 +192,8 @@ h6 {font-size: 1.8rem; font-family: 'Marsden Wide';}
 
 section .btn { margin-top: 2rem;}
 
+.hide-desktop {display: none !important;}
+
 /* nav css start */
 .custom-nav .logo { max-width: 12rem;}
 .custom-nav { background-color: var(--light-orange);padding: 3rem 0 3rem 0; position: sticky; top: 0; z-index: 3;}
@@ -398,6 +400,8 @@ section .btn { margin-top: 2rem;}
 .footer { background-image: url('../images/footer-bg.png'); background-repeat: no-repeat; height: 800px; background-size: cover; position: relative;}
 .footer h2 { text-align: center; color: var(--dark-green); margin: 18rem 0;}
 .footer .footer-card {border-radius: 50px; background: rgba(40, 86, 93, 0.80); padding: 4rem;}
+.footer-card .footer-menu .logo { padding: 0 !important; margin-bottom: 2rem !important; display: block;}
+.footer-card .footer-menu .logo img{ width: 10rem !important;}
 .footer .footer-menu img { width: 4rem;}
 .footer .footer-menu { display: flex;}
 .footer .footer-menu ul { display: flex; flex-direction: column; justify-content: space-between; margin-right: 3rem; margin-bottom: 2rem;}
