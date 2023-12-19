@@ -75,6 +75,10 @@
 
     .custom-nav .logo { max-width: 7rem;}
 
+    .custom-nav .navbar-nav .nav-item {margin-left: unset;}
+
+    .custom-nav .navbar-nav .nav-item .nav-link { font-size: 1.1rem; }
+
     .custom-nav { padding: 2rem 0 2rem 0;}
     .banner-slider-wraper {padding-top: 3rem;}
     .banner-slider-wraper label { font-size: .9rem; border-radius: 2rem; padding: .8rem 3rem .5rem 3rem;}
@@ -98,7 +102,7 @@
     .service-items .item .show-hover img { width: 6rem; margin-bottom: 1rem;}
 
     .our-services { padding: 5rem 0;}
-    .otc-plateform { padding: 10rem 0 7rem 0; }
+    .otc-plateform { padding: 7rem 0 7rem 0; }
     .otc-plateform .otc-wraper { padding-left: 1rem;}
     .otc-plateform .otc-wraper .otc-img { position: unset; margin-top: 3rem;}
 
@@ -111,6 +115,7 @@
     .enery-card .item {width: 100%; margin-bottom: 1rem; padding: 2rem;}
     .enery-card .item img {width: 9rem;}
     .green-energy { padding: 0rem 0 7rem 0;}
+    .energy-management { background-size: cover; padding: 3rem 0;}
     .energy-management .img-box { margin-top: 3rem;}
     .energy-board {padding: 7rem 0;}
     .energy-board .board .item { padding: 0 2rem; }
@@ -139,6 +144,8 @@
     .footer-strip h4 { line-height: 2.2rem; font-size: 2rem; margin-bottom: 1rem;}
     .footer-strip { padding: 2rem 2rem; border-radius: 0;}
     .footer-strip .content { display: block !important; text-align: center;}
+
+    .bottomTop { width: 5rem; height: 5rem; bottom: 12%; right: 4rem; }
 
 
   }
