@@ -74,12 +74,23 @@
     .hide-desktop {display: block !important;}
 
     .custom-nav .logo { max-width: 7rem;}
-
+    .custom-nav .navbar-nav { align-items: unset;}
     .custom-nav .navbar-nav .nav-item {margin-left: unset;}
 
-    .custom-nav .navbar-nav .nav-item .nav-link { font-size: 1.1rem; }
-
+    .custom-nav .navbar-nav .nav-item .nav-link { font-size: 1.1rem; padding: 1rem 0;}
+    .custom-dropdown-menu { background: unset; box-shadow: unset;}
+    .custom-dropdown-menu ul.inner-menu { display: block; padding: 0;}
+    .custom-dropdown-menu ul.inner-menu li { width: 100%; display: flex; align-items: center; padding: 1rem; border-radius: 1rem; margin: 0 0 1rem 0;}
     .custom-nav { padding: 2rem 0 2rem 0;}
+    .m-nav-head span { float: right; font-size: 1.6rem; cursor: pointer;}
+    .collapse:not(.show) {display: unset;}
+    .overlay { background-color: #0e0e0eb3; position: fixed; top: 0; bottom: 0; left: 0; right: 0;;}
+    .custom-collapse { position: absolute; z-index: 9; height: 100vh; overflow-y: auto; top: 0; bottom: 0; left: -100%; width: 30rem; padding: 1.5rem; background: #FFF3EC; box-shadow: 0px 0px 15px 0px rgba(241, 147, 92, 0.50); transition: .5s ease-in-out;}
+    .custom-collapse.slide { left: 0;}
+    .custom-collapse img { margin-bottom: 1.5rem;}
+    .custom-dropdown-menu ul.inner-menu li .icon { margin: 0 1rem 0 0; width: 4rem;}
+    .custom-dropdown-menu ul.inner-menu li .arrow { width: 2rem; margin: 0;}
+    .custom-dropdown-menu ul.inner-menu li h6 {margin-bottom: 0;}
     .banner-slider-wraper {padding-top: 3rem;}
     .banner-slider-wraper label { font-size: .9rem; border-radius: 2rem; padding: .8rem 3rem .5rem 3rem;}
     .banner-slider-wraper .item-wraper { padding: 0; }

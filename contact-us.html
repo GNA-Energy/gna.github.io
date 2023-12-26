@@ -27,29 +27,59 @@
               <a class="navbar-brand" href="./index.html">
                 <img src="./assets/images/logo.svg" title="logo" class="logo">
               </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" onClick="toggleNavBar()">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <img src="./assets/images/mobile-toggle.svg" >
               </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <div class="collapse navbar-collapse custom-collapse" id="navbarNavDropdown">
+                <div>
+                <div class="hide-desktop m-nav-head d-flex justify-content-between">
+                    <img src="./assets/images/logo.svg" title="logo" class="logo">
+                    <span onClick="toggleNavBar()">x</span>
+                </div>
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html#who">about us</a>
+                    <a class="nav-link active" aria-current="page" href="#who">about us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./index.html#WhyOTC">Why GNA</a>
+                    <a class="nav-link" href="#WhyOTC">Why GNA</a>
                   </li>
-                  <li class="nav-item">
-                    <!-- <a class="nav-link dropdown-toggle" href="#service" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Services
-                    </a> -->
-                    <a class="nav-link" href="./index.html#service" >
+                  <li class="nav-item ">
+                    <a class="nav-link dropdown-toggle" href="#service" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Services
                     </a>
-                    <!--<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>-->
+                    <!-- <a class="nav-link" href="#service" >
+                        Services
+                    </a> -->
+                    <div class="dropdown-menu w-100  custom-dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <ul class="container inner-menu">
+                            <li>
+                                <img src="./assets/images/H1.svg" class="icon">
+                                <h6>GNA Energy <span class="orange-text">OTC Platform</span></h6>
+                                <img src="./assets/images/bg-right-arrow.svg" class="arrow"/>
+                            </li>
+                            <li>
+                                <img src="./assets/images/H2.svg" class="icon">
+                                <h6>GNA Energy <span class="orange-text">Data and Analytics</span></h6>
+                                <img src="./assets/images/bg-right-arrow.svg" class="arrow"/>
+                            </li>
+                            <li>
+                                <img src="./assets/images/H3.svg" class="icon">
+                                <h6>GNA Energy <span class="orange-text">Management</span></h6>
+                                <img src="./assets/images/bg-right-arrow.svg" class="arrow"/>
+                            </li>
+                            <li>
+                                <img src="./assets/images/H4.svg" class="icon">
+                                <h6>Green Energy <span class="orange-text">Transition</span></h6>
+                                <img src="./assets/images/bg-right-arrow.svg" class="arrow"/>
+                            </li>
+                            <li>
+                                <img src="./assets/images/H5.svg" class="icon">
+                                <h6>GNA Energy <span class="orange-text">Bulletin Board</span></h6>
+                                <img src="./assets/images/bg-right-arrow.svg" class="arrow"/>
+                            </li>
+                            </ul>
+                     </div>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="./contact-us.html">contact us</a>
@@ -61,8 +91,10 @@
                   </li>
                   
                 </ul>
+                </div>
               </div>
             </div>
+            <div class="" id="overLay"></div>
         </nav>
         <!-- <section class="map-wraper mb7">
             <label>Central Electricity Regulatory Commission Approved</label>
@@ -107,13 +139,17 @@
             <div class="container footer-abs">
                 <div class="row">
                     <div class="col-md-12">
-                        <h2>GNA</h2>
+                        <h2>
+                            <img src="./assets/images/green-logo.svg" >
+                        </h2>
                     </div>
                     <div class="col-md-12 footer-card">
                         <div class="footer-menu">
                             <ul>
                                 <li>
-                                    <h5 class="orange-text">GNA</h5>
+                                    <a href="./index.html" class="logo">
+                                        <img src="./assets/images/logo.svg" title="logo" >
+                                      </a>
                                     <div>
                                         <a href="#"><img src="./assets/images/Facebook.png"></a>
                                         <a href="#"><img src="./assets/images/Instagram.png"></a>
@@ -122,7 +158,9 @@
                                     </div>
                                 </li>
                                 <li>
-                                    GNA Energy is here to make electricity accessible, affordable, and reliable for everyone. We believe that electricity is not just a utility; it's a vital resource that powers our lives, businesses, and economies.
+                                    <span>
+                                        GNA Energy is here to make electricity accessible, affordable, and reliable for everyone. We believe that electricity is not just a utility; it's a vital resource that powers our lives, businesses, and economies.
+                                    </span>
                                 </li>
                             </ul>
                             <ul>
@@ -181,6 +219,24 @@
 
         <script src="./assets/js/bootstrap.bundle.min.js"></script>
         <script src="./assets/js/splide.min.js"></script>
-        
+        <script>
+            var parentDiv = document.getElementById("navbarNavDropdown");
+            var overlay = document.getElementById("overLay");
+            // console.log(parentDiv, "parentDiv***")
+            function toggleNavBar(){
+                if(parentDiv.classList.contains("slide")){
+                    console.log("yes has")
+                    document.body.style.overflowY = "auto"
+                    parentDiv.classList.remove("slide")
+                    overlay.classList.remove("overlay");
+                }
+                else {
+                    console.log("no it has")
+                    document.body.style.overflowY = "hidden"
+                    overlay.classList.add("overlay");
+                    parentDiv.classList.add("slide")
+                }
+            }
+          </script>
     </body>
 </html>
