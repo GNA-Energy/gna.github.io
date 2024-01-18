@@ -248,6 +248,19 @@ section .btn { margin-top: 2rem;}
     font-weight: 700;
     margin-bottom: 3rem;
 }
+.banner-slider-wraper span.topTag {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    color: var(--orange);
+    border: 1px solid var(--orange);
+    background: #fff;
+    text-transform: uppercase;
+    padding: 1.5rem 3rem;
+    border-radius: 0;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
 .banner-slider-wraper h1 {
     text-transform: uppercase;
 }

@@ -124,14 +124,48 @@
         <section class="banner-slider-wraper mb7">
             <div class="container">
                 <div class="row">
+                    
+                    <div class="col-md-12">
+                        <div class="splide topTags">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <a href=""><span class="topTag">Central Electricity Regulatory Commission Approved</span></a>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <a href="./assets/pdfs/GNA-disclaimer.pdf#toolbar=0" target="_blank"><span class="topTag">Disclaimer by Hon’ble commission</span></a>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <a href=""><span class="topTag">GNA Energy will launch Data Platform on 26th January 2024</span></a>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <a href=""><span class="topTag">GNA Energy will launch OTC platform on 14th February 2024</span></a>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="item-wraper">
+                                            <a href=""><span class="topTag">Registration for platform has started</span></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class="col-md-12">
                         <div class="splide bannerSlider">
                             <div class="splide__track">
                                   <ul class="splide__list">
                                       <li class="splide__slide">
                                         <div class="item-wraper">
-                                            <label>Central Electricity Regulatory Commission Approved</label>
-                                            <h1 class="">GNA Energy <span class="orange-text"> OTC Platform </span></h1>
+                                            <h1>GNA Energy <span class="orange-text"> OTC Platform </span></h1>
                                             <p>India’s Premier OTC Platform for <span class="green-text"> Electricity Buyers </span> and <span class="green-text"> Sellers</span></p>
                                             <div class="btn-wraper">
                                                 <a href="#otcPlatform">
@@ -148,8 +182,7 @@
                                       </li>
                                       <li class="splide__slide">
                                         <div class="item-wraper">
-                                            <label>Central Electricity Regulatory Commission Approved</label>
-                                            <h1 class=""><span class="orange-text"> GNA Energy  </span> data and analytics</h1>
+                                            <h1><span class="orange-text"> GNA Energy  </span> data and analytics</h1>
                                             <p>Get <span class="green-text"> actionable insights </span> and and make informed decisions</p>
                                             <div class="btn-wraper">
                                                 <a href="#dataAnalytic">
@@ -166,10 +199,7 @@
                                       </li>
                                       <li class="splide__slide">
                                         <div class="item-wraper">
-                                            <br>
-                                            <br>
-                                            <br>
-                                            <h1 class=""> <span class="orange-text">GREEN Energy </span> Transition</h1>
+                                            <h1><span class="orange-text">GREEN Energy </span> Transition</h1>
                                             <p>A transformative journey towards sustainability with our <span class="green-text"> Net Zero and Decarbonisation </span> services </p>
                                             <div class="btn-wraper">
                                                 <a href="#greenEnergy">
@@ -878,6 +908,26 @@
             }
         </script>
         <script>
+            var top_tags = new Splide( '.topTags', {
+            // padding: '5rem',
+            type: 'loop',
+            perPage: 1,
+            perMove: 1,
+            pagination: false,
+            arrows: false,
+            autoplay: true,
+            speed: '1000',
+            breakpoints: {
+                767: {
+                // destroy: true,
+                // label  : 'My Gallery', // Used after destruction
+                
+                }
+            }
+            } );
+
+            top_tags.mount();
+
             var banner_slider = new Splide( '.bannerSlider', {
             // type   : 'loop',
             // padding: '5rem',
