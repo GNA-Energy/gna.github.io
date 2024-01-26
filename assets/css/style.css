@@ -201,6 +201,7 @@ h6 {font-size: 1.8rem; font-family: 'Marsden Wide';}
 section .btn { margin-top: 2rem;}
 
 .hide-desktop {display: none !important;}
+.hide-mobile {display: block !important;}
 
 /* announcement css start */
 .announcement {
