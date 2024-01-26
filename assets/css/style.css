@@ -236,7 +236,10 @@ section .btn { margin-top: 2rem;}
 }
 .custom-nav .navbar-nav { display: flex; align-items: baseline; }
 .custom-nav .navbar-nav .nav-item {
-    margin-left: 5rem;
+    margin-left: 3rem;
+}
+.custom-nav .navbar-nav .nav-item:last-child {
+    margin-left: 1rem;
 }
 .custom-nav .navbar-nav .nav-item .nav-link {
     font-size: 1.4rem;
