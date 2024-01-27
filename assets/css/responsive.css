@@ -106,6 +106,13 @@
     .hide-desktop {display: block !important;}
     .hide-mobile {display: none !important;}
 
+    .mob_login { background-color: var(--light-orange); position: fixed; z-index: 9; bottom: 0; left: 0; right: 0; padding: 15px 40px;}
+    .mob_login a:first-child { margin-right: 10px; }
+
+    .announcement { height: 40px; }
+    .announcement span.topTag { font-size: 9px; padding: 12px 0; }
+
+    .custom-nav { top: 40px; }
     .custom-nav .logo { max-width: 7rem;}
     .custom-nav .navbar-nav { align-items: unset;}
     .custom-nav .navbar-nav .nav-item {margin-left: unset;}
@@ -120,7 +127,6 @@
     .overlay { background-color: #0e0e0eb3; position: fixed; top: 0; bottom: 0; left: 0; right: 0;;}
     .custom-collapse { position: absolute; z-index: 9; height: 100vh; overflow-y: auto; top: 0; bottom: 0; left: -100%; width: 30rem; padding: 1.5rem; background: #FFF3EC; box-shadow: 0px 0px 15px 0px rgba(241, 147, 92, 0.50); transition: .5s ease-in-out;}
     .custom-collapse.slide { left: 0;}
-    .custom-collapse.slide .mob_login { position: fixed; z-index: 9; bottom: 20px; left: 10px; right: 0;}
     .custom-collapse img { margin-bottom: 1.5rem;}
     .custom-dropdown-menu ul.inner-menu li .icon { margin: 0 1rem 0 0; width: 4rem;}
     .custom-dropdown-menu ul.inner-menu li .arrow { width: 2rem; margin: 0;}
