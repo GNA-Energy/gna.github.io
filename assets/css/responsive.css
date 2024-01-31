@@ -106,7 +106,8 @@
     .hide-desktop {display: block !important;}
     .hide-mobile {display: none !important;}
 
-    .mob_login { background-color: var(--light-orange); position: fixed; z-index: 9; bottom: 0; left: 0; right: 0; padding: 15px 10px;}
+    .hide-desktop.mob_login { display: flex !important; justify-content: center; }
+    .mob_login { background-color: var(--light-orange); position: fixed; z-index: 9; bottom: 0; left: 0; right: 0; padding: 15px 0;}
     .mob_login a:first-child { margin-right: 10px; }
 
     .announcement { height: 40px; }
