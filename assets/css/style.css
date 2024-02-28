@@ -1329,21 +1329,7 @@ border-radius: 14px;
     transition: 0.5s ease-in-out;
   
   }
-  .career-form .mb-3{
-    display: block;
-  
-  }
-  
-  .career-form .mb-3 input{
-    width: 100%;
-    
-  }
-  .career-form{
-    display: block;
-  }
-  .career-custom-file-upload{
-    width: 100%;
-  }
+
 }
 
 .career-loader{
@@ -1361,11 +1347,11 @@ border-radius: 14px;
   100% { transform: rotate(360deg); }
 }
 
-.career-job-from{
+.career-job-form{
   padding: 30px 36px;
   border-radius: 14px 10px 10px 14px;
   z-index: 11;
-  height: 80vh;
+  width: 55vw;
   background-color: white;
   overflow: scroll;
   overflow-x: hidden;
@@ -1435,6 +1421,11 @@ border-radius: 14px;
   .careers-job-box{
     min-height: 400px
   }
+  .career-job-form{
+    width: 60vw;
+
+
+  }
 }
 @media (max-width: 992px) {
   .joinUs-description{
@@ -1442,9 +1433,30 @@ border-radius: 14px;
   
   }
   .careers-job-box{
-    min-height: 500px
+    min-height: 500px;
+  }
+  .career-job-form{
+    width: 80vw;
+
+  }
+  .career-form .mb-3{
+    display: block;
+  
+  }
+  
+  .career-form .mb-3 input{
+    width: 100%;
+    
+  }
+  .career-form{
+    display: block;
+  }
+  .career-custom-file-upload{
+    width: 100%;
   }
 }
+
+
 
 @media (max-width: 768px) {
   .career-bottom-box{

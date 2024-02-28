@@ -118,7 +118,7 @@ function applyForm(jobid){
     JobPopup.innerHTML= `
     <div class="career-job-detail-wrapper" onclick="closeJobDetails()">
         <div
-          class="career-job-from container"
+          class="career-job-form container"
           onclick="event.stopPropagation()"
         >
         <div class="d-flex justify-content-between">
