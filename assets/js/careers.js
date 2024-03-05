@@ -100,7 +100,7 @@ function seeJobDetails(jobid) {
             <!-- Qualification -->
             <div>
                 <h3 class="mt-5">Preferred Qualification</h3>
-                <p class="mt-4">${job.preferred_experience}</p>
+                <p class="mt-4">${job.preferred_qualifications}</p>
             </div>
             <div class="row justify-content-center mt-5">
                 <button onclick="applyForm(${jobid})" class="btn orange-btn career-apply-button" title="Apply Now">
