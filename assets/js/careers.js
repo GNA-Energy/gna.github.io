@@ -5,7 +5,7 @@ const JobPopup = document.getElementById("job-popup");
 
 let jobs= []
 
-fetch("http://127.0.0.1:8000/jobs/get_jobs/", {
+fetch("https://careers.gna.energy/jobs/get_jobs/", {
     method: "GET",
     headers: {
         "Content-Type": "application/json",
