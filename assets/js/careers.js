@@ -5,7 +5,7 @@ const JobPopup = document.getElementById("job-popup");
 
 let jobs= []
 
-fetch("https://careers.gna.energy/jobs/get_jobs/", {
+fetch("http://127.0.0.1:8000/jobs/get_jobs/", {
     method: "GET",
     headers: {
         "Content-Type": "application/json",
@@ -100,7 +100,7 @@ function seeJobDetails(jobid) {
             <!-- Qualification -->
             <div>
                 <h3 class="mt-5">Preferred Qualification</h3>
-                <p class="mt-4">${job.preferred_experience}</p>
+                <p class="mt-4">${job.preferred_qualifications}</p>
             </div>
             <div class="row justify-content-center mt-5">
                 <button onclick="applyForm(${jobid})" class="btn orange-btn career-apply-button" title="Apply Now">
