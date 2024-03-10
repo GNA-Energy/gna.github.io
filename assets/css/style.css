@@ -193,6 +193,21 @@ ul {
   list-style: none;
 }
 
+.offset::before{
+    content: '';
+  display: block;
+  height:      75px;
+  margin-top: -75px;
+  visibility: hidden;
+}
+
+/* .announcement{
+  padding-top: 0px ;
+  margin-top: 0px;
+} */
+
+
+
 .btn {
   width: 160px;
   font-size: 13px;
@@ -1419,7 +1434,7 @@ border-radius: 14px;
 
 @media (max-width : 1200px){
   .careers-job-box{
-    min-height: 400px
+    min-height: 410px
   }
   .career-job-form{
     width: 60vw;
@@ -1428,6 +1443,11 @@ border-radius: 14px;
   }
 }
 @media (max-width: 992px) {
+  .career-job-form{
+    width: 100%;
+
+
+  }
   .joinUs-description{
     font-size: 20px;
   
@@ -1464,6 +1484,9 @@ border-radius: 14px;
   }
   .career-bottom-heading{
     font-size: 24px;
+  }
+  .careers-job-box{
+    min-height: unset;
   }
   .career-bottom-description{
     font-size: 14px;
