@@ -1142,7 +1142,7 @@ ul.address-book li a:hover {
   margin-bottom: 24px;
 }
 
-.joinUs-description{
+.page-description{
   font-size: 24px;
   line-height: 32px;
   margin-top: 16px;
@@ -1210,7 +1210,7 @@ border-radius: 14px;
 .career-job-items{
   display: flex;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 15px;
   font-size: 14px;
   font-weight: 500;
   margin-top: 20px;
@@ -1448,7 +1448,7 @@ border-radius: 14px;
 
 
   }
-  .joinUs-description{
+  .page-description{
     font-size: 20px;
   
   }
@@ -1491,7 +1491,7 @@ border-radius: 14px;
   .career-bottom-description{
     font-size: 14px;
   }
-  .joinUs-description{
+  .page-description{
     font-size: 12px;
   
   }
@@ -1501,11 +1501,120 @@ border-radius: 14px;
   .career-bottom-heading{
     font-size: 20px;
   }
-  .joinUs-description{
+  .page-description{
     font-size: 10px;
   
   }
   .career-bottom-description{
     font-size: 12px;
   }
+}
+.team-containe{
+  gap: 20px;
+}
+.team-container .member-item{
+  width:  295px!important;
+height:  410px;
+gap: 24px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+
+.team-container .member-item img{
+  width: Fill (295px)px;
+height: Fixed (290px)px;
+gap: 10px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+  border-radius: 8px 8px 0px 0px;
+}
+.team-member-details{
+  text-align: center;
+  height: 40px;
+}
+
+.team-member-experience{
+  text-align: center;
+  font-family: Marsden Wide;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0.04em;
+text-align: center;
+color: #28565D;
+}
+
+.team-member-details h4{
+  font-family: Marsden Wide;
+  font-size: 19px;
+  font-weight: 400;
+  color: #333333;
+  line-height: 24px;
+  text-align: center;
+}
+
+.team-member-details p{
+  font-family: Marsden Wide;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 0px;
+  color: #707070;
+  
+}
+
+.team-member-item{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  gap: 20px;
+  width: 295px;
+height: 410px; 
+gap: 24px;
+border-radius: 8px 0px 0px 0px;
+opacity: 0px;
+
+}
+
+.team-container .row {
+  justify-content: space-evenly;
+  /* gap: 59px; */
+--bs-gutter-y: 53px;
+}
+
+.team-member-hover-detail{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px #F1935C3D;
+  border: 1px solid #F1935C;
+  transition: 0.5s ease-in-out;
+font-size: 12.5px;
+font-weight: 400;
+line-height: 25.5px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 16px 18px;
+text-align: center;
+backdrop-filter: blur(31px);
+-webkit-backdrop-filter: blur(31px);
+    background-color: #ffffffb5;
+
+}
+
+
+
+.team-member-hover-detail:hover{
+  
+  opacity: 1;
+  transition: 0.5s ease-in-out;
 }

@@ -1,0 +1,52 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20240415T110000
+DTEND;TZID=Asia/Kolkata:20240415T120000
+RRULE:FREQ=WEEKLY;BYDAY=FR,MO,TH,TU,WE
+DTSTAMP:20240412T055924Z
+ORGANIZER;CN=Mayank Sharma:mailto:mayank@gna.energy
+UID:2dk5qr51uqhd4t8alk6h4b4dgv@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=adithya@gna.energy;X-NUM-GUESTS=0:mailto:adithya@gna.energy
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=akshit@gna.energy;X-NUM-GUESTS=0:mailto:akshit@gna.energy
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=pulkit@gna.energy;X-NUM-GUESTS=0:mailto:pulkit@gna.energy
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Mayank Sharma;X-NUM-GUESTS=0:mailto:mayank@gna.energy
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=harinder@gna.energy;X-NUM-GUESTS=0:mailto:harinder@gna.energy
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=shelly@gna.energy;X-NUM-GUESTS=0:mailto:shelly@gna.energy
+X-GOOGLE-CONFERENCE:https://meet.google.com/fbq-yhfg-job
+X-MICROSOFT-CDO-OWNERAPPTID:-458217897
+CREATED:20240412T055922Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/fb
+ q-yhfg-job\nOr dial: (US) +1 413-591-4145 PIN: 165913014#\nMore phone numbe
+ rs: https://tel.meet/fbq-yhfg-job?pin=2808786538661&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20240412T055922Z
+LOCATION:
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Scheduling data and insights project
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

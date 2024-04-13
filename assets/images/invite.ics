@@ -1,0 +1,54 @@
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+TZNAME:IST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Asia/Kolkata:20240415T100000
+DTEND;TZID=Asia/Kolkata:20240415T103000
+RRULE:FREQ=WEEKLY;BYDAY=FR,MO,TH,TU,WE
+DTSTAMP:20240412T050753Z
+ORGANIZER;CN=Soumyak Kumar Bhoi:mailto:soumyak@gna.energy
+UID:3ssv4qa3g75bsorh423e89kn9e@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=sajal@gna.energy;X-NUM-GUESTS=0:mailto:sajal@gna.energy
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=ACCEPTED;RSVP=TRUE
+ ;CN=Soumyak Kumar Bhoi;X-NUM-GUESTS=0:mailto:soumyak@gna.energy
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=akshit@gna.energy;X-NUM-GUESTS=0:mailto:akshit@gna.energy
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=harinder@gna.energy;X-NUM-GUESTS=0:mailto:harinder@gna.energy
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=mayank@gna.energy;X-NUM-GUESTS=0:mailto:mayank@gna.energy
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=pulkit@gna.energy;X-NUM-GUESTS=0:mailto:pulkit@gna.energy
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=shelly@gna.energy;X-NUM-GUESTS=0:mailto:shelly@gna.energy
+X-GOOGLE-CONFERENCE:https://meet.google.com/zgw-ouos-buu
+X-MICROSOFT-CDO-OWNERAPPTID:1331202496
+CREATED:20240412T045448Z
+DESCRIPTION:-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~::~:~::-\nJoin with Google Meet: https://meet.google.com/zg
+ w-ouos-buu\nOr dial: (US) +1 402-542-0152 PIN: 449730486#\nMore phone numbe
+ rs: https://tel.meet/zgw-ouos-buu?pin=8451785646650&hs=7\n\nLearn more abou
+ t Meet at: https://support.google.com/a/users/answer/9282720\n\nPlease do n
+ ot edit this section.\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20240412T050751Z
+LOCATION:
+SEQUENCE:2
+STATUS:CONFIRMED
+SUMMARY:Daily Update - GNA
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
