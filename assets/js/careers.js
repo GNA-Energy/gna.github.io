@@ -56,6 +56,7 @@ fetch("https://careers.gna.energy/jobs/get_jobs/", {
 function seeJobDetails(jobid) {
     let job = jobs.find((job) => job.id == jobid);
     console.log(job);
+    let date = new Date(job.created_at);
     JobPopup.innerHTML= `
     <div class="career-job-detail-wrapper" onclick="closeJobDetails()" id="jobDetails"
     aria-labelledby="jobDetailsLabel" aria-hidden="true">
@@ -72,7 +73,22 @@ function seeJobDetails(jobid) {
             </div>
             <p>
                 Department / Full Time / On-Site
-                <span class="career-gray-text">(Posted 4 Days ago)</span>
+                <span class="career-gray-text">(Posted ${
+                    // <span class="career-gray-text">(Posted 4 Days ago)</span>
+                   // Math.floor((Date.now() - date) / (1000 * 60 * 60 * 24))
+                  Math.floor((Date.now() - date) / (1000 * 60 * 60 * 24)) == 0 ?
+                    "Today"
+                :
+            
+                    Math.floor((Date.now() - date) / (1000 * 60 * 60 * 24)) + " Days ago"
+           
+
+            })
+                </span>
+
+                    
+                    
+               </span>       
             </p>
         </section>
         <!-- Body Section -->
