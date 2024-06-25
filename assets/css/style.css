@@ -1141,8 +1141,11 @@ ul.address-book li a:hover {
 
 .page-description {
   font-size: 24px;
-  line-height: 32px;
-  margin-top: 16px;
+  /* line-height: 32px;
+  margin-top: 16px; */
+}
+.page-description-icon{
+  height: 24px;
 }
 .joinUs-openPositions {
   font-size: 25px;
@@ -1429,6 +1432,9 @@ ol {
   .page-description {
     font-size: 20px;
   }
+  .page-description-icon{
+    height: 20px;
+  }
   .careers-job-box {
     min-height: 500px;
   }
@@ -1464,8 +1470,11 @@ ol {
     font-size: 14px;
   }
   .page-description {
-    font-size: 12px;
+    font-size: 16px;
   }
+  .page-description-icon{
+  height: 16px;
+}
 }
 
 @media (max-width: 400px) {
@@ -1473,7 +1482,7 @@ ol {
     font-size: 20px;
   }
   .page-description {
-    font-size: 10px;
+    font-size: 16px;
   }
   .career-bottom-description {
     font-size: 12px;
@@ -1587,7 +1596,7 @@ ol {
 }
 
 .newsletter-banner p{
-font-size: 18px;
+/* font-size: 18px; */
 font-weight: 500;
 
 }
@@ -1607,10 +1616,9 @@ font-weight: 500;
 }
 
 .newsletter-viewall-text{
-font-size: 16px;
 font-style: italic;
 font-weight: 400;
-color: rgba(119, 119, 119, 1);
+color: rgba(241, 147, 92, 1);
 }
 
 .newsletter-table table, td,th ,thead{
@@ -1619,7 +1627,7 @@ color: rgba(119, 119, 119, 1);
 }
 
 .newsletter-table th{
-font-size: 16px;
+/* font-size: 16px; */
 font-weight: 400;
 color: rgba(159, 159, 159, 1);
 padding: 16px 32px 16px 32px;
@@ -1637,11 +1645,18 @@ padding: 16px 32px 16px 32px;
 .newsletter-table td{
   padding: 16px 32px 16px 32px;
   border-bottom: 0px solid rgba(237, 237, 237, 1);
-font-size: 16px;
+/* font-size: 16px; */
 font-weight: 400;
 
 
 }
+
+/* .newsletter-cross{
+  font-size: 20px;
+  height: 20px;
+  width: 20px;
+
+} */
 
 .newsletter-table th:nth-child(3){
   min-width: 180px;
@@ -1652,8 +1667,10 @@ font-weight: 400;
   width: 100%;
 }
 
+
+
 .newsletter-download-button{
-  width: 200px;
+  /* width: 200px; */
 padding: 6px 12px 6px 12px;
 gap: 10px;
 border-radius: 27px;
@@ -1670,7 +1687,7 @@ font-weight: 400;
 } */
 
 .newsletter-day-cell{
-  font-size: 16px;
+  /* font-size: 16px; */
   font-weight: 400;
   color: rgba(119, 119, 119, 1);
 
@@ -1713,9 +1730,10 @@ font-weight: 400;
 .newsletter-select{
   appearance: none;
             width: 100%;
-            
-            padding: 10px;
             font-size: 16px;
+            color: rgba(119, 119, 119, 1);
+            padding: 10px;
+            /* font-size: 16px; */
             border-radius: 8px;
             border: 1px solid rgba(221, 221, 221, 1);
                         background-color: #fff;
@@ -1724,7 +1742,7 @@ font-weight: 400;
             background-repeat: no-repeat;
 
             background-position: right 10px center;
-            background-size: 24px; /* Adjust the size here */
+            background-size: 16px; /* Adjust the size here */
 }
 .newsletter-select:focus, .custom-input-date:focus {
   outline: none;
@@ -1733,14 +1751,16 @@ font-weight: 400;
 }
 
 .newsletter-input-date{
+  
   width: 100%;
   border: 1px solid rgba(221, 221, 221, 1);
   text-transform: uppercase;
   padding: 10px;
   color: rgba(119, 119, 119, 1);
-
   font-size: 16px;
+    min-height: 46px;
   border-radius: 5px;
+  
 }
 
 .newsletter-input-date:focus, .custom-input-date:focus {
@@ -1783,4 +1803,26 @@ font-weight: 400;
   border:none;
   color: #333;
   background-color: transparent;
+}
+.newsletter-select{
+  min-height: 46px;
+
+}
+@media (max-width: 768px) {
+  .newsletter-table th, .newsletter-table td {
+    padding: 8px 16px;
+  }
+  .newsletter-table th:nth-child(3) {
+    min-width: 137px;
+}
+.newsletter-banner-readmore img {
+  width: 37px;
+}
+.newsletter-popup{
+  width: 100%;
+  padding: 24px 15px;
+  height: unset;
+}
+
+
 }
