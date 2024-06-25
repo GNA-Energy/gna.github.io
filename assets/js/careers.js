@@ -1,5 +1,5 @@
 const CareersListing = document.getElementById("careers-listing");
-const JobPopup = document.getElementById("job-popup");
+const JobPopup = document.getElementById("popup-box");
 
 
 
