@@ -556,15 +556,19 @@
               <option value="last-week">Last Week</option>
             </select>
           </div>
-          <div class="col">
-            <input
-              type="date"
-              class="newsletter-input-date form-control"
-              id="newsletterDate"
-              max=""
-              
-              onfocus="'showPicker' in this && this.showPicker()"
-            />
+          <div class="col-2 date-input-container">
+            <form>
+              <div class="date-input-wrapper">
+                  <input
+                      type="date"
+                      class="newsletter-input-date form-control"
+                      id="newsletterDate"
+                      max=""
+                      onfocus="'showPicker' in this && this.showPicker()"
+                  />
+              </div>
+          </form>
+      
           </div>
         </div>
         <table class="newsletter-table table mt-5">
